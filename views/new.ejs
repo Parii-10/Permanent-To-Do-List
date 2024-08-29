@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/new.css">
+  <title>To Do List</title>
+</head>
+<body>
+  <main>
+    <h1 class="box" id="heading">Add new User</h1>
+    <form class="box" action="/new" method="post">
+    <p>Please add User name... </p>
+    <input  type="text" name="name" placeholder = "New user">
+
+    <div class="spacer"></div>
+    <button class="new-add" type="submit" autocomplete="off" autofocus="true">Add</button>
+  </main>
+
+  <footer>
+    Copyright © <%= new Date().getFullYear() %>
+  </footer>
+  
+</body>
+</html>
